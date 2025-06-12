@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+@keyframes shimmer1 {
+  0% {
+    background-position: -160px 0;
+  }
+  100% {
+    background-position: 160px 0;
+  }
+}
+
+.shimmer1 {
+  background: linear-gradient(90deg, #c0c0c0 25%, #f0f0f0 50%, #c0c0c0 75%);
+  background-size: 200% 100%;
+  animation: shimmer1 1s infinite;
+}

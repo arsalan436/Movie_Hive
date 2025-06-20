@@ -1,4 +1,4 @@
-# Netflix Clone 🎥🍿
+# Movie_Hive 🎥🍿
 
 A React-based Netflix-inspired movie streaming frontend where users can browse movies by popular categories and search for specific titles using the TMDB API.
 

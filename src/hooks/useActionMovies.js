@@ -21,7 +21,7 @@ const useActionMovies = () => {
   };
 
   useEffect(() => {
-    actionMovies.length == 0 && getActionMovies();
+    actionMovies?.length == 0 && getActionMovies();
   }, []);
 };
 

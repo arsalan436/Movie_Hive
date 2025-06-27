@@ -20,7 +20,7 @@ const useTopRatedMovies = () => {
   };
 
   useEffect(() => {
-    topRatedMovies.length == 0 && getTopRatedMovies();
+    topRatedMovies?.length == 0 && getTopRatedMovies();
   }, []);
 };
 

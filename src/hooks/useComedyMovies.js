@@ -22,7 +22,7 @@ const useComedyMovies = () => {
   };
 
   useEffect(() => {
-    comedyMovies.length == 0 && getComedyMovies();
+    comedyMovies?.length == 0 && getComedyMovies();
   }, []);
 };
 

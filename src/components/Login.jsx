@@ -148,21 +148,21 @@ const Login = () => {
               {" "}
               {signin ? "Sign In" : "Sign Up"}
             </button>
-            <p className="text-white w-fit mx-auto">OR</p>
+            {/* <p className="text-white w-fit mx-auto">OR</p>
             <button className="w-full bg-gray-400/40 hover:bg-gray-500/40 transition-colors duration-200 text-white h-10 rounded-sm font-medium mt-4 cursor-pointer my-4">
               Use a Sign-in Code
-            </button>
-            <p className="text-white w-fit mx-auto hover:text-gray-400 transition-colors duration-100 ">
+            </button> */}
+            {/* <p className="text-white w-fit mx-auto hover:text-gray-400 transition-colors duration-100 ">
               <Link className="underline">Forgot password?</Link>
-            </p>
-            <div className="my-4 flex gap-3 items-center">
+            </p> */}
+            {/* <div className="my-4 flex gap-3 items-center">
               <input
                 type="checkbox"
                 className="w-[18px] h-[18px] bg-black/80 accent-white rounded-sm  focus:ring-gray-400 cursor-pointer "
               />
 
               <label className="text-white">Remember me</label>
-            </div>
+            </div> */}
 
             <div>
               <div>
